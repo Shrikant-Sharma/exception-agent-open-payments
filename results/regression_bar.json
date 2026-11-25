@@ -1,0 +1,10 @@
+{
+ "exceptions": 35,
+ "from_run": "dev",
+ "model": "Qwen3-4B-Q4_K_M.gguf",
+ "passes_when": "right >= 33 and wrong <= 0",
+ "procedure_sha256": "cceae9482b126d09674e7f4ca3e404d9ff895c6b587e5d7e93276d35ddc73583",
+ "right": 35,
+ "to_a_person": 0,
+ "wrong": 0
+}

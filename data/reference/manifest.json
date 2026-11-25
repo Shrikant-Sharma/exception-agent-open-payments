@@ -1,0 +1,17 @@
+{
+ "api": "https://npiregistry.cms.hhs.gov/api/",
+ "file": "registry_snapshot.json",
+ "npis_in_extract_with_no_registry_record": [
+  "1083805410"
+ ],
+ "people": 6068,
+ "pulls": [
+  "number=<each of 763 NPIs in the extract>",
+  "last_name=<each of 706 recipient last names>, state=NH, enumeration_type=NPI-1"
+ ],
+ "recipients_found_by_npi": 762,
+ "retrieved_at_utc": "2026-11-22T02:39:10Z",
+ "same_last_name_people_added": 5306,
+ "sha256": "b6db0cfa34618676a61ad50bec99fbf7ebcb31979ff7a147f083e204b963b6c6",
+ "source": "NPPES NPI Registry API, version 2.1"
+}

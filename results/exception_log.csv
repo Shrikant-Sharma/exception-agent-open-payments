@@ -1,0 +1,168 @@
+exception_id,check,rule_id,rule_version,route,key,n_lines,dollars,priority,what_found,rule_fix,lines
+E-001,IDENTITY,R-ID-02,2025.1,agent,1891713905|JACQUELINE ANN FOURNIER,11,357.08,52.77,NPI 1891713905 is on 11 ledger line(s) under the name JACQUELINE ANN FOURNIER. The registry lists that NPI under a different name.,,L01521+L02110+L02554+L02555+L02915+L03256+L03823+L04369+L05435+L05604+L05687
+E-002,IDENTITY,R-ID-02,2025.1,agent,1700079118|ELIZABETH M GEMBA,18,266.26,52.13,NPI 1700079118 is on 18 ledger line(s) under the name ELIZABETH M GEMBA. The registry lists that NPI under a different name.,,L00210+L00678+L01616+L01711+L02170+L02496+L02671+L02672+L02690+L03308+L03759+L04250+L04401+L04499+L04916+L05304+L05305+L05340
+E-003,IDENTITY,R-ID-02,2025.1,agent,1831940444|BRENDA E LAPIERRE,13,261.89,52.10,NPI 1831940444 is on 13 ledger line(s) under the name BRENDA E LAPIERRE. The registry lists that NPI under a different name.,,L00294+L00847+L01011+L01590+L01678+L01858+L02012+L02013+L02251+L02841+L02881+L02904+L05349
+E-004,LOOKALIKE,R-DUP-01,2025.1,agent,L04516+L04517+L04519+L04520+L04521+L04522+L04523+L04524,8,36400.00,50.81,"8 ledger lines share NPI 1023139250, date 2025-09-25, amount $4,550.00 and nature of payment.",,L04516+L04517+L04519+L04520+L04521+L04522+L04523+L04524
+E-005,COMPLETENESS,R-SMALL-01,2025.1,rule,1861178410,17,134.57,50.66,"17 ledger lines for NPI 1861178410 are not in the filing. 17 are under $13.46, but the recipient's yearly total is $595.89, over $134.54, so all must be reported.",ADD_LINES,L00261+L01637+L01638+L01831+L01848+L02113+L02505+L02740+L03530+L03592+L04280+L04574+L04729+L04761+L05248+L05583+L05759
+E-006,COMPLETENESS,R-SMALL-01,2025.1,rule,1740745173,13,109.90,50.22,"13 ledger lines for NPI 1740745173 are not in the filing. 13 are under $13.46, but the recipient's yearly total is $286.58, over $134.54, so all must be reported.",ADD_LINES,L00244+L00669+L00962+L01142+L02163+L02753+L02964+L03374+L03699+L04181+L04671+L04744+L05779
+E-007,COMPLETENESS,R-SMALL-01,2025.1,rule,1205569258,12,104.35,50.11,"12 ledger lines for NPI 1205569258 are not in the filing. 12 are under $13.46, but the recipient's yearly total is $747.52, over $134.54, so all must be reported.",ADD_LINES,L00080+L00128+L00674+L01252+L02352+L03353+L03822+L04097+L04119+L04674+L04727+L04753
+E-008,COMPLETENESS,R-SMALL-01,2025.1,rule,1730661224,11,92.31,49.85,"11 ledger lines for NPI 1730661224 are not in the filing. 11 are under $13.46, but the recipient's yearly total is $413.56, over $134.54, so all must be reported.",ADD_LINES,L00832+L01281+L01706+L02029+L02323+L02482+L02990+L04670+L05426+L05519+L05683
+E-009,IDENTITY,R-ID-01,2025.1,agent,1582656774|ANNE L SPERANZA,1,43.80,49.26,NPI 1582656774 is on 1 ledger line(s) under the name ANNE L SPERANZA. The registry has no record of that NPI (check digit not valid).,,L01752
+E-010,IDENTITY,R-ID-02,2025.1,agent,1972912616|KARA C DOBERSTEIN,7,261.46,49.10,NPI 1972912616 is on 7 ledger line(s) under the name KARA C DOBERSTEIN. The registry lists that NPI under a different name.,,L00064+L01188+L01599+L01731+L01732+L01733+L05229
+E-011,COMPLETENESS,R-SMALL-01,2025.1,rule,1063468981,12,62.29,49.01,"12 ledger lines for NPI 1063468981 are not in the filing. 12 are under $13.46, but the recipient's yearly total is $393.69, over $134.54, so all must be reported.",ADD_LINES,L00366+L00367+L00922+L00923+L01437+L01438+L03124+L03536+L04025+L04798+L05089+L05480
+E-012,COMPLETENESS,R-SMALL-01,2025.1,rule,1104585280,10,57.05,48.82,"10 ledger lines for NPI 1104585280 are not in the filing. 10 are under $13.46, but the recipient's yearly total is $2,325.05, over $134.54, so all must be reported.",ADD_LINES,L00146+L01776+L02370+L02910+L03025+L03973+L04535+L04815+L05355+L05609
+E-013,IDENTITY,R-ID-01,2025.1,agent,1586622801|YOKO FUKUDA,1,33.37,48.68,NPI 1586622801 is on 1 ledger line(s) under the name YOKO FUKUDA. The registry has no record of that NPI (check digit not valid).,,L02201
+E-014,IDENTITY,R-ID-01,2025.1,agent,1295979799|JOSEPH T HYATT,1,32.94,48.65,NPI 1295979799 is on 1 ledger line(s) under the name JOSEPH T HYATT. The registry has no record of that NPI (check digit not valid).,,L01047
+E-015,IDENTITY,R-ID-01,2025.1,agent,1821713905|JACQUELINE ANN FOURNIER,1,32.95,48.65,NPI 1821713905 is on 1 ledger line(s) under the name JACQUELINE ANN FOURNIER. The registry has no record of that NPI (check digit not valid).,,L04883
+E-016,IDENTITY,R-ID-01,2025.1,agent,1832118017|GEOFFREY STARR,1,30.48,48.49,NPI 1832118017 is on 1 ledger line(s) under the name GEOFFREY STARR. The registry has no record of that NPI (check digit not valid).,,L04950
+E-017,IDENTITY,R-ID-01,2025.1,agent,1417394311|EDWARD PAUL DOHERTY,1,30.18,48.47,NPI 1417394311 is on 1 ledger line(s) under the name EDWARD PAUL DOHERTY. The registry has no record of that NPI (check digit not valid).,,L01039
+E-018,IDENTITY,R-ID-01,2025.1,agent,1358486717|TIMOTHY SULLIVAN,1,29.90,48.45,NPI 1358486717 is on 1 ledger line(s) under the name TIMOTHY SULLIVAN. The registry has no record of that NPI (check digit not valid).,,L01847
+E-019,IDENTITY,R-ID-01,2025.1,agent,1558945876|CAITLYN HUTTER,1,29.89,48.45,NPI 1558945876 is on 1 ledger line(s) under the name CAITLYN HUTTER. The registry has no record of that NPI (check digit not valid).,,L02092
+E-020,IDENTITY,R-ID-01,2025.1,agent,1631371263|MICHAEL R KACZANOWSKI,1,28.60,48.36,NPI 1631371263 is on 1 ledger line(s) under the name MICHAEL R KACZANOWSKI. The registry has no record of that NPI (check digit not valid).,,L02386
+E-021,IDENTITY,R-ID-01,2025.1,agent,1912017285|JOEL R TUITE,1,26.70,48.21,NPI 1912017285 is on 1 ledger line(s) under the name JOEL R TUITE. The registry has no record of that NPI (check digit not valid).,,L04529
+E-022,IDENTITY,R-ID-01,2025.1,agent,1255692378|MARIA T BOYLAN,1,26.05,48.16,NPI 1255692378 is on 1 ledger line(s) under the name MARIA T BOYLAN. The registry has no record of that NPI (check digit not valid).,,L00688
+E-023,IDENTITY,R-ID-01,2025.1,agent,1154344502|NANCY KATHY GILBERT,1,25.38,48.11,NPI 1154344502 is on 1 ledger line(s) under the name NANCY KATHY GILBERT. The registry has no record of that NPI (check digit not valid).,,L05076
+E-024,IDENTITY,R-ID-01,2025.1,agent,1083805410|MICHELLE T LINCOLN,1,24.24,48.01,NPI 1083805410 is on 1 ledger line(s) under the name MICHELLE T LINCOLN. The registry has no record of that NPI (check digit valid).,,L04760
+E-025,IDENTITY,R-ID-01,2025.1,agent,9172912616|KARA C DOBERSTEIN,1,24.20,48.01,NPI 9172912616 is on 1 ledger line(s) under the name KARA C DOBERSTEIN. The registry has no record of that NPI (check digit not valid).,,L01304
+E-026,IDENTITY,R-ID-01,2025.1,agent,1104370124|ERIC A SENNEVILLE,1,23.56,47.95,NPI 1104370124 is on 1 ledger line(s) under the name ERIC A SENNEVILLE. The registry has no record of that NPI (check digit not valid).,,L02438
+E-027,IDENTITY,R-ID-01,2025.1,agent,1729558960|AMANDA GRIFFIN,1,21.27,47.74,NPI 1729558960 is on 1 ledger line(s) under the name AMANDA GRIFFIN. The registry has no record of that NPI (check digit not valid).,,L01792
+E-028,IDENTITY,R-ID-01,2025.1,agent,1962429387|ROSE S EHRET,1,20.96,47.71,NPI 1962429387 is on 1 ledger line(s) under the name ROSE S EHRET. The registry has no record of that NPI (check digit not valid).,,L00519
+E-029,IDENTITY,R-ID-01,2025.1,agent,9172283778|EMMA KENNEY,1,20.75,47.69,NPI 9172283778 is on 1 ledger line(s) under the name EMMA KENNEY. The registry has no record of that NPI (check digit not valid).,,L04951
+E-030,IDENTITY,R-ID-01,2025.1,agent,1952858394|CONSOLATA OMINGO,1,20.06,47.62,NPI 1952858394 is on 1 ledger line(s) under the name CONSOLATA OMINGO. The registry has no record of that NPI (check digit not valid).,,L05764
+E-031,IDENTITY,R-ID-02,2025.1,agent,1528656774|ANNE L SPERANZA,7,125.64,47.51,NPI 1528656774 is on 7 ledger line(s) under the name ANNE L SPERANZA. The registry lists that NPI under a different name.,,L00345+L01750+L01751+L03337+L03338+L03884+L04513
+E-032,IDENTITY,R-ID-01,2025.1,agent,1821829119|NATHANIEL N BROWN,1,18.69,47.47,NPI 1821829119 is on 1 ledger line(s) under the name NATHANIEL N BROWN. The registry has no record of that NPI (check digit not valid).,,L03609
+E-033,IDENTITY,R-ID-01,2025.1,agent,1780914001|JENNIFER SUSANN MAYNARD,1,18.27,47.42,NPI 1780914001 is on 1 ledger line(s) under the name JENNIFER SUSANN MAYNARD. The registry has no record of that NPI (check digit not valid).,,L02413
+E-034,IDENTITY,R-ID-01,2025.1,agent,1184907080|CARA JEAN DONAGHEY,1,17.06,47.28,NPI 1184907080 is on 1 ledger line(s) under the name CARA JEAN DONAGHEY. The registry has no record of that NPI (check digit not valid).,,L01651
+E-035,IDENTITY,R-ID-01,2025.1,agent,1366535398|JEROME RAMOS-ESTEBAN,1,15.70,47.11,NPI 1366535398 is on 1 ledger line(s) under the name JEROME RAMOS-ESTEBAN. The registry has no record of that NPI (check digit not valid).,,L02901
+E-036,IDENTITY,R-ID-01,2025.1,agent,1548435620|FREDERICK LANSIGAN,1,15.00,47.02,NPI 1548435620 is on 1 ledger line(s) under the name FREDERICK LANSIGAN. The registry has no record of that NPI (check digit not valid).,,L05629
+E-037,IDENTITY,R-ID-01,2025.1,agent,1249545484|SHELLEY R REED,1,14.75,46.99,NPI 1249545484 is on 1 ledger line(s) under the name SHELLEY R REED. The registry has no record of that NPI (check digit not valid).,,L00816
+E-038,IDENTITY,R-ID-01,2025.1,agent,1455859757|CAROLYN JAMIE KUSSMAUL,1,14.65,46.97,NPI 1455859757 is on 1 ledger line(s) under the name CAROLYN JAMIE KUSSMAUL. The registry has no record of that NPI (check digit not valid).,,L00258
+E-039,IDENTITY,R-ID-01,2025.1,agent,1306617424|CHAD HARTMAN MESHBERGER,1,13.53,46.81,NPI 1306617424 is on 1 ledger line(s) under the name CHAD HARTMAN MESHBERGER. The registry has no record of that NPI (check digit not valid).,,L05465
+E-040,LOOKALIKE,R-DUP-01,2025.1,agent,L00281+L00282+L00283+L00284+L00285,5,22750.00,46.79,"5 ledger lines share NPI 1023139250, date 2025-01-15, amount $4,550.00 and nature of payment.",,L00281+L00282+L00283+L00284+L00285
+E-041,LOOKALIKE,R-DUP-01,2025.1,agent,L05334+L05335+L05336+L05337+L05338,5,22750.00,46.79,"5 ledger lines share NPI 1023139250, date 2025-11-13, amount $4,550.00 and nature of payment.",,L05334+L05335+L05336+L05337+L05338
+E-042,IDENTITY,R-ID-01,2025.1,agent,1346724941|WENDY L WRIGHT,1,10.00,46.21,NPI 1346724941 is on 1 ledger line(s) under the name WENDY L WRIGHT. The registry has no record of that NPI (check digit not valid).,,L05624
+E-043,LOOKALIKE,R-DUP-01,2025.1,agent,L00640+L00642+L00643+L00644,4,18200.00,45.30,"4 ledger lines share NPI 1023139250, date 2025-02-04, amount $4,550.00 and nature of payment.",,L00640+L00642+L00643+L00644
+E-044,LOOKALIKE,R-DUP-01,2025.1,agent,L01098+L01099+L01100+L01101,4,18200.00,45.30,"4 ledger lines share NPI 1023139250, date 2025-03-04, amount $4,550.00 and nature of payment.",,L01098+L01099+L01100+L01101
+E-045,LOOKALIKE,R-DUP-01,2025.1,agent,L02868+L02870+L02871+L02872,4,18200.00,45.30,"4 ledger lines share NPI 1023139250, date 2025-05-28, amount $4,550.00 and nature of payment.",,L02868+L02870+L02871+L02872
+E-046,LOOKALIKE,R-DUP-01,2025.1,agent,L03580+L03581+L03582+L03585,4,18200.00,45.30,"4 ledger lines share NPI 1023139250, date 2025-07-17, amount $4,550.00 and nature of payment.",,L03580+L03581+L03582+L03585
+E-047,LOOKALIKE,R-DUP-01,2025.1,agent,L05042+L05043+L05044+L05046,4,18200.00,45.30,"4 ledger lines share NPI 1023139250, date 2025-10-29, amount $4,550.00 and nature of payment.",,L05042+L05043+L05044+L05046
+E-048,COMPLETENESS,R-SMALL-01,2025.1,rule,1497379770,6,56.64,44.80,"6 ledger lines for NPI 1497379770 are not in the filing. 6 are under $13.46, but the recipient's yearly total is $423.36, over $134.54, so all must be reported.",ADD_LINES,L00618+L00769+L02089+L03548+L04550+L04713
+E-049,IDENTITY,R-ID-01,2025.1,agent,1144478386|MARIA A MARTIN,1,4.14,44.55,NPI 1144478386 is on 1 ledger line(s) under the name MARIA A MARTIN. The registry has no record of that NPI (check digit not valid).,,L03195
+E-050,LOOKALIKE,R-DUP-01,2025.1,agent,L00638+L00639+L00641,3,17550.00,44.22,"3 ledger lines share NPI 1023139250, date 2025-02-04, amount $5,850.00 and nature of payment.",,L00638+L00639+L00641
+E-051,LOOKALIKE,R-DUP-01,2025.1,agent,L05599+L05600+L05602,3,11055.00,43.22,"3 ledger lines share NPI 1184981466, date 2025-12-04, amount $3,685.00 and nature of payment.",,L05599+L05600+L05602
+E-052,LOOKALIKE,R-DUP-01,2025.1,agent,L05845+L05847+L05849,3,11055.00,43.22,"3 ledger lines share NPI 1184981466, date 2025-12-18, amount $3,685.00 and nature of payment.",,L05845+L05847+L05849
+E-053,LOOKALIKE,R-DUP-01,2025.1,agent,L02853+L02855+L02857,3,8250.00,42.58,"3 ledger lines share NPI 1700825791, date 2025-05-28, amount $2,750.00 and nature of payment.",,L02853+L02855+L02857
+E-054,LOOKALIKE,R-DUP-01,2025.1,agent,L02955+L02956+L02958,3,8250.00,42.58,"3 ledger lines share NPI 1700825791, date 2025-06-03, amount $2,750.00 and nature of payment.",,L02955+L02956+L02958
+E-055,LOOKALIKE,R-DUP-01,2025.1,agent,L00253+L00254,2,11700.00,42.34,"2 ledger lines share NPI 1023139250, date 2025-01-14, amount $5,850.00 and nature of payment.",,L00253+L00254
+E-056,LOOKALIKE,R-DUP-01,2025.1,agent,L01104+L01105,2,11700.00,42.34,"2 ledger lines share NPI 1023139250, date 2025-03-04, amount $5,850.00 and nature of payment.",,L01104+L01105
+E-057,LOOKALIKE,R-DUP-01,2025.1,agent,L01383+L01384,2,11700.00,42.34,"2 ledger lines share NPI 1023139250, date 2025-03-18, amount $5,850.00 and nature of payment.",,L01383+L01384
+E-058,COMPLETENESS,R-SMALL-01,2025.1,rule,1669404661,5,28.29,42.33,"5 ledger lines for NPI 1669404661 are not in the filing. 5 are under $13.46, but the recipient's yearly total is $928.30, over $134.54, so all must be reported.",ADD_LINES,L00927+L00986+L01360+L05003+L05418
+E-059,LOOKALIKE,R-DUP-01,2025.1,agent,L02286+L02287+L02289,3,7035.00,42.24,"3 ledger lines share NPI 1184981466, date 2025-04-29, amount $2,345.00 and nature of payment.",,L02286+L02287+L02289
+E-060,LOOKALIKE,R-DUP-01,2025.1,agent,L03934+L03936+L03937,3,7035.00,42.24,"3 ledger lines share NPI 1184981466, date 2025-08-12, amount $2,345.00 and nature of payment.",,L03934+L03936+L03937
+E-061,COMPLETENESS,R-SMALL-01,2025.1,rule,1275669996,4,40.70,42.10,"4 ledger lines for NPI 1275669996 are not in the filing. 4 are under $13.46, but the recipient's yearly total is $22,110.19, over $134.54, so all must be reported.",ADD_LINES,L00073+L01048+L03269+L04666
+E-062,LOOKALIKE,R-DUP-01,2025.1,agent,L02294+L02295,2,9100.00,41.80,"2 ledger lines share NPI 1023139250, date 2025-04-29, amount $4,550.00 and nature of payment.",,L02294+L02295
+E-063,LOOKALIKE,R-DUP-01,2025.1,agent,L04141+L04142,2,9100.00,41.80,"2 ledger lines share NPI 1023139250, date 2025-08-27, amount $4,550.00 and nature of payment.",,L04141+L04142
+E-064,LOOKALIKE,R-DUP-01,2025.1,agent,L04163+L04164,2,9100.00,41.80,"2 ledger lines share NPI 1023139250, date 2025-08-28, amount $4,550.00 and nature of payment.",,L04163+L04164
+E-065,LOOKALIKE,R-DUP-01,2025.1,agent,L05194+L05195,2,9100.00,41.80,"2 ledger lines share NPI 1023139250, date 2025-11-06, amount $4,550.00 and nature of payment.",,L05194+L05195
+E-066,COMPLETENESS,R-SMALL-01,2025.1,rule,1174222848,4,33.30,41.68,"4 ledger lines for NPI 1174222848 are not in the filing. 4 are under $13.46, but the recipient's yearly total is $158.57, over $134.54, so all must be reported.",ADD_LINES,L00461+L04210+L04486+L05673
+E-067,COMPLETENESS,R-SMALL-01,2025.1,rule,1659723286,4,31.85,41.58,"4 ledger lines for NPI 1659723286 are not in the filing. 4 are under $13.46, but the recipient's yearly total is $451.58, over $134.54, so all must be reported.",ADD_LINES,L01890+L02972+L03219+L03919
+E-068,IDENTITY,R-ID-02,2025.1,agent,1851513832|CHAUNTELLE C CARTY,1,123.10,41.47,NPI 1851513832 is on 1 ledger line(s) under the name CHAUNTELLE C CARTY. The registry lists that NPI under a different name.,,L02204
+E-069,LOOKALIKE,R-DUP-01,2025.1,agent,L01230+L01231,2,7700.00,41.43,"2 ledger lines share NPI 1700825791, date 2025-03-11, amount $3,850.00 and nature of payment.",,L01230+L01231
+E-070,LOOKALIKE,R-DUP-01,2025.1,agent,L01806+L01807,2,7700.00,41.43,"2 ledger lines share NPI 1700825791, date 2025-04-07, amount $3,850.00 and nature of payment.",,L01806+L01807
+E-071,LOOKALIKE,R-DUP-01,2025.1,agent,L01907+L01908,2,7700.00,41.43,"2 ledger lines share NPI 1700825791, date 2025-04-11, amount $3,850.00 and nature of payment.",,L01907+L01908
+E-072,LOOKALIKE,R-DUP-01,2025.1,agent,L02583+L02585,2,7700.00,41.43,"2 ledger lines share NPI 1700825791, date 2025-05-12, amount $3,850.00 and nature of payment.",,L02583+L02585
+E-073,LOOKALIKE,R-DUP-01,2025.1,agent,L02854+L02856,2,7700.00,41.43,"2 ledger lines share NPI 1700825791, date 2025-05-28, amount $3,850.00 and nature of payment.",,L02854+L02856
+E-074,LOOKALIKE,R-DUP-01,2025.1,agent,L05825+L05826,2,7700.00,41.43,"2 ledger lines share NPI 1700825791, date 2025-12-18, amount $3,850.00 and nature of payment.",,L05825+L05826
+E-075,LOOKALIKE,R-DUP-01,2025.1,agent,L01241+L01243,2,7370.00,41.34,"2 ledger lines share NPI 1184981466, date 2025-03-11, amount $3,685.00 and nature of payment.",,L01241+L01243
+E-076,LOOKALIKE,R-DUP-01,2025.1,agent,L03576+L03577,2,7370.00,41.34,"2 ledger lines share NPI 1184981466, date 2025-07-17, amount $3,685.00 and nature of payment.",,L03576+L03577
+E-077,LOOKALIKE,R-DUP-01,2025.1,agent,L04941+L04943,2,7370.00,41.34,"2 ledger lines share NPI 1184981466, date 2025-10-23, amount $3,685.00 and nature of payment.",,L04941+L04943
+E-078,LOOKALIKE,R-DUP-01,2025.1,agent,L05844+L05848,2,6030.00,40.90,"2 ledger lines share NPI 1184981466, date 2025-12-18, amount $3,015.00 and nature of payment.",,L05844+L05848
+E-079,LOOKALIKE,R-DUP-01,2025.1,agent,L01909+L01910,2,5500.00,40.70,"2 ledger lines share NPI 1700825791, date 2025-04-11, amount $2,750.00 and nature of payment.",,L01909+L01910
+E-080,LOOKALIKE,R-DUP-01,2025.1,agent,L02080+L02081,2,5500.00,40.70,"2 ledger lines share NPI 1700825791, date 2025-04-18, amount $2,750.00 and nature of payment.",,L02080+L02081
+E-081,LOOKALIKE,R-DUP-01,2025.1,agent,L02584+L02586,2,5500.00,40.70,"2 ledger lines share NPI 1700825791, date 2025-05-12, amount $2,750.00 and nature of payment.",,L02584+L02586
+E-082,IDENTITY,R-ID-02,2025.1,agent,1255694378|MARIA T BOYLAN,2,50.52,40.56,NPI 1255694378 is on 2 ledger line(s) under the name MARIA T BOYLAN. The registry lists that NPI under a different name.,,L00467+L00659
+E-083,LOOKALIKE,R-DUP-01,2025.1,agent,L00998+L00999,2,4690.00,40.36,"2 ledger lines share NPI 1184981466, date 2025-02-27, amount $2,345.00 and nature of payment.",,L00998+L00999
+E-084,LOOKALIKE,R-DUP-01,2025.1,agent,L04940+L04942,2,4690.00,40.36,"2 ledger lines share NPI 1184981466, date 2025-10-23, amount $2,345.00 and nature of payment.",,L04940+L04942
+E-085,COMPLETENESS,R-SMALL-01,2025.1,rule,1609440056,4,13.42,39.79,"4 ledger lines for NPI 1609440056 are not in the filing. 4 are under $13.46, but the recipient's yearly total is $288.89, over $134.54, so all must be reported.",ADD_LINES,L02006+L02007+L03741+L05134
+E-086,LOOKALIKE,R-DUP-01,2025.1,agent,L05597+L05598,2,3500.00,39.72,"2 ledger lines share NPI 1063058931, date 2025-12-04, amount $1,750.00 and nature of payment.",,L05597+L05598
+E-087,FIELD,R-FIELD-01,2025.1,rule,L01389,1,4550.00,39.29,"filing amount 4505.00, ledger amount 4550.00",SET_FROM_LEDGER:amount=4550.00,L01389
+E-088,LOOKALIKE,R-DUP-01,2025.1,agent,L02282+L02283,2,2500.00,38.99,"2 ledger lines share NPI 1063058931, date 2025-04-29, amount $1,250.00 and nature of payment.",,L02282+L02283
+E-089,IDENTITY,R-ID-02,2025.1,agent,1437111796|JENNA E CLARK,1,34.97,38.78,NPI 1437111796 is on 1 ledger line(s) under the name JENNA E CLARK. The registry lists that NPI under a different name.,,L03518
+E-090,IDENTITY,R-ID-02,2025.1,agent,1881714889|PAUL F BELLIVEAU,1,30.11,38.46,NPI 1881714889 is on 1 ledger line(s) under the name PAUL F BELLIVEAU. The registry lists that NPI under a different name.,,L02341
+E-091,IDENTITY,R-ID-02,2025.1,agent,1881298875|ELIOT D FOLEY,1,26.51,38.20,NPI 1881298875 is on 1 ledger line(s) under the name ELIOT D FOLEY. The registry lists that NPI under a different name.,,L02123
+E-092,IDENTITY,R-ID-02,2025.1,agent,1194758359|KATHRYN L SCOVILLE,1,26.03,38.16,NPI 1194758359 is on 1 ledger line(s) under the name KATHRYN L SCOVILLE. The registry lists that NPI under a different name.,,L00125
+E-093,IDENTITY,R-ID-02,2025.1,agent,1689613242|JOAN E ROMBOLI,1,25.63,38.13,NPI 1689613242 is on 1 ledger line(s) under the name JOAN E ROMBOLI. The registry lists that NPI under a different name.,,L02897
+E-094,IDENTITY,R-ID-02,2025.1,agent,1265484000|JODI F MARSHALL,1,25.51,38.12,NPI 1265484000 is on 1 ledger line(s) under the name JODI F MARSHALL. The registry lists that NPI under a different name.,,L03321
+E-095,IDENTITY,R-ID-02,2025.1,agent,1265485056|JAMES R KATES,1,25.51,38.12,NPI 1265485056 is on 1 ledger line(s) under the name JAMES R KATES. The registry lists that NPI under a different name.,,L03320
+E-096,IDENTITY,R-ID-02,2025.1,agent,1750032801|CLIVE E ROBERTSON,1,24.96,38.07,NPI 1750032801 is on 1 ledger line(s) under the name CLIVE E ROBERTSON. The registry lists that NPI under a different name.,,L01272
+E-097,IDENTITY,R-ID-02,2025.1,agent,1841931284|SARA M DION,1,24.88,38.06,NPI 1841931284 is on 1 ledger line(s) under the name SARA M DION. The registry lists that NPI under a different name.,,L01583
+E-098,IDENTITY,R-ID-02,2025.1,agent,1184933657|ALLISON M DILL,1,24.35,38.02,NPI 1184933657 is on 1 ledger line(s) under the name ALLISON M DILL. The registry lists that NPI under a different name.,,L00034
+E-099,IDENTITY,R-ID-02,2025.1,agent,1811081987|TERESA W TRANCHEMONTAG,1,22.56,37.86,NPI 1811081987 is on 1 ledger line(s) under the name TERESA W TRANCHEMONTAG. The registry lists that NPI under a different name.,,L01493
+E-100,IDENTITY,R-ID-02,2025.1,agent,1255859757|CAROLYN JAMIE KUSSMAUL,1,21.58,37.77,NPI 1255859757 is on 1 ledger line(s) under the name CAROLYN JAMIE KUSSMAUL. The registry lists that NPI under a different name.,,L04591
+E-101,IDENTITY,R-ID-02,2025.1,agent,1972283778|EMMA KENNEY,1,21.49,37.76,NPI 1972283778 is on 1 ledger line(s) under the name EMMA KENNEY. The registry lists that NPI under a different name.,,L02560
+E-102,IDENTITY,R-ID-02,2025.1,agent,1093894875|KATELYN AUSTIN HANSON,1,20.96,37.71,NPI 1093894875 is on 1 ledger line(s) under the name KATELYN AUSTIN HANSON. The registry lists that NPI under a different name.,,L00666
+E-103,IDENTITY,R-ID-02,2025.1,agent,1063292233|LYDIA ANNE MCKENZIE,1,19.92,37.60,NPI 1063292233 is on 1 ledger line(s) under the name LYDIA ANNE MCKENZIE. The registry lists that NPI under a different name.,,L02049
+E-104,IDENTITY,R-ID-02,2025.1,agent,1811856685|REBECCA E KRASNOF,1,18.75,37.48,NPI 1811856685 is on 1 ledger line(s) under the name REBECCA E KRASNOF. The registry lists that NPI under a different name.,,L03151
+E-105,IDENTITY,R-ID-02,2025.1,agent,1518951250|MELISSA KANTER,1,18.45,37.44,NPI 1518951250 is on 1 ledger line(s) under the name MELISSA KANTER. The registry lists that NPI under a different name.,,L03117
+E-106,IDENTITY,R-ID-02,2025.1,agent,1467933598|PAUL G DEGREGORIO,1,17.69,37.36,NPI 1467933598 is on 1 ledger line(s) under the name PAUL G DEGREGORIO. The registry lists that NPI under a different name.,,L05483
+E-107,IDENTITY,R-ID-02,2025.1,agent,1093305385|AIMEE MURRAY,1,16.44,37.21,NPI 1093305385 is on 1 ledger line(s) under the name AIMEE MURRAY. The registry lists that NPI under a different name.,,L02809
+E-108,IDENTITY,R-ID-02,2025.1,agent,1720013972|PETER SIRAGUSA,1,16.32,37.19,NPI 1720013972 is on 1 ledger line(s) under the name PETER SIRAGUSA. The registry lists that NPI under a different name.,,L04451
+E-109,IDENTITY,R-ID-02,2025.1,agent,1659913028|JENNIFER A PENN,1,14.77,36.99,NPI 1659913028 is on 1 ledger line(s) under the name JENNIFER A PENN. The registry lists that NPI under a different name.,,L01725
+E-110,IDENTITY,R-ID-02,2025.1,agent,1528001377|PHILIP J FINOCCHIARO,1,14.18,36.91,NPI 1528001377 is on 1 ledger line(s) under the name PHILIP J FINOCCHIARO. The registry lists that NPI under a different name.,,L04736
+E-111,IDENTITY,R-ID-02,2025.1,agent,1750462669|SARAH E SPOONER RIGGLES,1,14.16,36.90,NPI 1750462669 is on 1 ledger line(s) under the name SARAH E SPOONER RIGGLES. The registry lists that NPI under a different name.,,L00963
+E-112,IDENTITY,R-ID-02,2025.1,agent,1346763927|LAURA ANDERSON,1,13.00,36.73,NPI 1346763927 is on 1 ledger line(s) under the name LAURA ANDERSON. The registry lists that NPI under a different name.,,L04557
+E-113,IDENTITY,R-ID-02,2025.1,agent,1861920209|KATELYN ISHERWOOD,1,12.46,36.65,NPI 1861920209 is on 1 ledger line(s) under the name KATELYN ISHERWOOD. The registry lists that NPI under a different name.,,L01577
+E-114,IDENTITY,R-ID-02,2025.1,agent,1962870899|DIANA LI,1,11.83,36.54,NPI 1962870899 is on 1 ledger line(s) under the name DIANA LI. The registry lists that NPI under a different name.,,L05423
+E-115,LOOKALIKE,R-DUP-01,2025.1,agent,L04233+L05900,2,610.64,35.93,"2 ledger lines share NPI 1700825791, date 2025-09-08, amount $305.32 and nature of payment.",,L04233+L05900
+E-116,IDENTITY,R-ID-02,2025.1,agent,1568909125|MOLLY B CHARTIER,1,7.92,35.75,NPI 1568909125 is on 1 ledger line(s) under the name MOLLY B CHARTIER. The registry lists that NPI under a different name.,,L02579
+E-117,LOOKALIKE,R-DUP-01,2025.1,agent,L01562+L01565+L01567+L01570,4,220.80,35.73,"4 ledger lines share NPI 1154327591, date 2025-03-26, amount $55.20 and nature of payment.",,L01562+L01565+L01567+L01570
+E-118,LOOKALIKE,R-DUP-01,2025.1,agent,L01564+L01568+L01569,3,265.50,35.13,"3 ledger lines share NPI 1154327591, date 2025-03-26, amount $88.50 and nature of payment.",,L01564+L01568+L01569
+E-119,LOOKALIKE,R-DUP-01,2025.1,agent,L04333+L05895,2,290.60,34.32,"2 ledger lines share NPI 1578824959, date 2025-09-15, amount $145.30 and nature of payment.",,L04333+L05895
+E-120,LOOKALIKE,R-DUP-01,2025.1,agent,L03073+L05894,2,277.04,34.22,"2 ledger lines share NPI 1184981466, date 2025-06-08, amount $138.52 and nature of payment.",,L03073+L05894
+E-121,LOOKALIKE,R-DUP-01,2025.1,agent,L04476+L05893,2,206.86,33.59,"2 ledger lines share NPI 1891711156, date 2025-09-23, amount $103.43 and nature of payment.",,L04476+L05893
+E-122,LOOKALIKE,R-DUP-01,2025.1,agent,L03276+L05896,2,178.02,33.26,"2 ledger lines share NPI 1629333182, date 2025-06-24, amount $89.01 and nature of payment.",,L03276+L05896
+E-123,LOOKALIKE,R-DUP-01,2025.1,agent,L05378+L05379,2,118.92,32.39,"2 ledger lines share NPI 1346274941, date 2025-11-15, amount $59.46 and nature of payment.",,L05378+L05379
+E-124,LOOKALIKE,R-DUP-01,2025.1,agent,L02937+L05902,2,66.10,31.13,"2 ledger lines share NPI 1730599473, date 2025-06-02, amount $33.05 and nature of payment.",,L02937+L05902
+E-125,LOOKALIKE,R-DUP-01,2025.1,agent,L03291+L05897,2,62.20,31.00,"2 ledger lines share NPI 1477707164, date 2025-06-25, amount $31.10 and nature of payment.",,L03291+L05897
+E-126,LOOKALIKE,R-DUP-01,2025.1,agent,L03145+L05899,2,58.60,30.88,"2 ledger lines share NPI 1710971957, date 2025-06-13, amount $29.30 and nature of payment.",,L03145+L05899
+E-127,LOOKALIKE,R-DUP-01,2025.1,agent,L03251+L05889,2,56.22,30.79,"2 ledger lines share NPI 1598259947, date 2025-06-23, amount $28.11 and nature of payment.",,L03251+L05889
+E-128,LOOKALIKE,R-DUP-01,2025.1,agent,L04527+L05907,2,53.62,30.69,"2 ledger lines share NPI 1053762682, date 2025-09-25, amount $26.81 and nature of payment.",,L04527+L05907
+E-129,LOOKALIKE,R-DUP-01,2025.1,agent,L04541+L05891,2,50.94,30.58,"2 ledger lines share NPI 1750510533, date 2025-09-26, amount $25.47 and nature of payment.",,L04541+L05891
+E-130,LOOKALIKE,R-DUP-01,2025.1,agent,L05376+L05380,2,49.54,30.52,"2 ledger lines share NPI 1346274941, date 2025-11-15, amount $24.77 and nature of payment.",,L05376+L05380
+E-131,LOOKALIKE,R-DUP-01,2025.1,agent,L02936+L05904,2,48.24,30.46,"2 ledger lines share NPI 1679093843, date 2025-06-02, amount $24.12 and nature of payment.",,L02936+L05904
+E-132,LOOKALIKE,R-DUP-01,2025.1,agent,L02962+L05892,2,46.48,30.38,"2 ledger lines share NPI 1043673379, date 2025-06-03, amount $23.24 and nature of payment.",,L02962+L05892
+E-133,LOOKALIKE,R-DUP-01,2025.1,agent,L04398+L05886,2,45.28,30.33,"2 ledger lines share NPI 1023139250, date 2025-09-17, amount $22.64 and nature of payment.",,L04398+L05886
+E-134,LOOKALIKE,R-DUP-01,2025.1,agent,L03149+L05898,2,42.92,30.21,"2 ledger lines share NPI 1780892836, date 2025-06-13, amount $21.46 and nature of payment.",,L03149+L05898
+E-135,FIELD,R-FIELD-01,2025.1,rule,L02777,1,67.55,30.18,"filing amount 65.75, ledger amount 67.55",SET_FROM_LEDGER:amount=67.55,L02777
+E-136,LOOKALIKE,R-DUP-01,2025.1,agent,L04191+L05906,2,40.94,30.11,"2 ledger lines share NPI 1346683240, date 2025-09-03, amount $20.47 and nature of payment.",,L04191+L05906
+E-137,LOOKALIKE,R-DUP-01,2025.1,agent,L03175+L05888,2,31.18,29.54,"2 ledger lines share NPI 1235566324, date 2025-06-16, amount $15.59 and nature of payment.",,L03175+L05888
+E-138,LOOKALIKE,R-DUP-01,2025.1,agent,L03007+L03013,2,30.00,29.46,"2 ledger lines share NPI 1346683240, date 2025-06-05, amount $15.00 and nature of payment.",,L03007+L03013
+E-139,LOOKALIKE,R-DUP-01,2025.1,agent,L04475+L05905,2,28.34,29.34,"2 ledger lines share NPI 1790446045, date 2025-09-23, amount $14.17 and nature of payment.",,L04475+L05905
+E-140,LOOKALIKE,R-DUP-01,2025.1,agent,L04260+L05887,2,25.88,29.15,"2 ledger lines share NPI 1700825791, date 2025-09-09, amount $12.94 and nature of payment.",,L04260+L05887
+E-141,FIELD,R-FIELD-01,2025.1,rule,L01939,1,34.07,28.72,"filing amount 30.47, ledger amount 34.07",SET_FROM_LEDGER:amount=34.07,L01939
+E-142,FIELD,R-FIELD-01,2025.1,rule,L04085,1,33.50,28.69,"filing pay_date 2024-08-22, ledger pay_date 2025-08-22",SET_FROM_LEDGER:pay_date=2025-08-22,L04085
+E-143,LOOKALIKE,R-DUP-01,2025.1,agent,L03803+L03804,2,19.30,28.54,"2 ledger lines share NPI 1013432251, date 2025-08-01, amount $9.65 and nature of payment.",,L03803+L03804
+E-144,LOOKALIKE,R-DUP-01,2025.1,agent,L02970+L05890,2,18.82,28.49,"2 ledger lines share NPI 1124656335, date 2025-06-03, amount $9.41 and nature of payment.",,L02970+L05890
+E-145,FIELD,R-FIELD-01,2025.1,rule,L01857,1,30.19,28.47,"filing amount 3.19, ledger amount 30.19",SET_FROM_LEDGER:amount=30.19,L01857
+E-146,FIELD,R-FIELD-01,2025.1,rule,L02487,1,27.18,28.25,"filing pay_date 2024-05-07, ledger pay_date 2025-05-07",SET_FROM_LEDGER:pay_date=2025-05-07,L02487
+E-147,FIELD,R-FIELD-01,2025.1,rule,L00460,1,24.49,28.03,"filing amount 24.94, ledger amount 24.49",SET_FROM_LEDGER:amount=24.49,L00460
+E-148,FIELD,R-FIELD-01,2025.1,rule,L02519,1,23.71,27.96,"filing amount 32.71, ledger amount 23.71",SET_FROM_LEDGER:amount=23.71,L02519
+E-149,FIELD,R-FIELD-01,2025.1,rule,L04734,1,23.03,27.90,"filing pay_date 2024-10-14, ledger pay_date 2025-10-14",SET_FROM_LEDGER:pay_date=2025-10-14,L04734
+E-150,FIELD,R-FIELD-01,2025.1,rule,L05114,1,22.90,27.89,"filing amount 22.09, ledger amount 22.90",SET_FROM_LEDGER:amount=22.90,L05114
+E-151,FIELD,R-FIELD-01,2025.1,rule,L05298,1,20.76,27.69,"filing amount 20.67, ledger amount 20.76",SET_FROM_LEDGER:amount=20.76,L05298
+E-152,FIELD,R-FIELD-01,2025.1,rule,L05768,1,20.15,27.63,"filing amount 21.05, ledger amount 20.15",SET_FROM_LEDGER:amount=20.15,L05768
+E-153,FIELD,R-FIELD-01,2025.1,rule,L05786,1,20.13,27.62,"filing amount 2.13, ledger amount 20.13",SET_FROM_LEDGER:amount=20.13,L05786
+E-154,FIELD,R-FIELD-01,2025.1,rule,L01529,1,20.01,27.61,"filing pay_date 2024-03-24, ledger pay_date 2025-03-24",SET_FROM_LEDGER:pay_date=2025-03-24,L01529
+E-155,FIELD,R-FIELD-01,2025.1,rule,L00906,1,19.50,27.56,"filing pay_date 2024-02-24, ledger pay_date 2025-02-24",SET_FROM_LEDGER:pay_date=2025-02-24,L00906
+E-156,FIELD,R-FIELD-01,2025.1,rule,L03017,1,18.46,27.45,"filing amount 14.86, ledger amount 18.46",SET_FROM_LEDGER:amount=18.46,L03017
+E-157,FIELD,R-FIELD-01,2025.1,rule,L04792,1,17.86,27.38,"filing amount 17.68, ledger amount 17.86",SET_FROM_LEDGER:amount=17.86,L04792
+E-158,FIELD,R-FIELD-01,2025.1,rule,L05755,1,17.63,27.35,"filing pay_date 2024-12-15, ledger pay_date 2025-12-15",SET_FROM_LEDGER:pay_date=2025-12-15,L05755
+E-159,FIELD,R-FIELD-01,2025.1,rule,L03450,1,17.50,27.34,"filing pay_date 2024-07-09, ledger pay_date 2025-07-09",SET_FROM_LEDGER:pay_date=2025-07-09,L03450
+E-160,LOOKALIKE,R-DUP-01,2025.1,agent,L04491+L05901,2,10.20,27.25,"2 ledger lines share NPI 1346683240, date 2025-09-24, amount $5.10 and nature of payment.",,L04491+L05901
+E-161,FIELD,R-FIELD-01,2025.1,rule,L05327,1,15.47,27.08,"filing pay_date 2024-11-13, ledger pay_date 2025-11-13",SET_FROM_LEDGER:pay_date=2025-11-13,L05327
+E-162,FIELD,R-FIELD-01,2025.1,rule,L00623,1,14.28,26.92,"filing pay_date 2024-02-03, ledger pay_date 2025-02-03",SET_FROM_LEDGER:pay_date=2025-02-03,L00623
+E-163,FIELD,R-FIELD-01,2025.1,rule,L03229,1,8.09,25.79,"filing pay_date 2024-06-18, ledger pay_date 2025-06-18",SET_FROM_LEDGER:pay_date=2025-06-18,L03229
+E-164,LOOKALIKE,R-DUP-01,2025.1,agent,L03273+L05903,2,4.50,25.70,"2 ledger lines share NPI 1558725861, date 2025-06-24, amount $2.25 and nature of payment.",,L03273+L05903
+E-165,FIELD,R-FIELD-01,2025.1,rule,L02074,1,5.65,25.11,"filing amount 6.55, ledger amount 5.65",SET_FROM_LEDGER:amount=5.65,L02074
+E-166,FIELD,R-FIELD-01,2025.1,rule,L04300,1,4.98,24.88,"filing amount 4.89, ledger amount 4.98",SET_FROM_LEDGER:amount=4.98,L04300
+E-167,FIELD,R-FIELD-01,2025.1,rule,L05259,1,3.13,24.08,"filing amount 3.31, ledger amount 3.13",SET_FROM_LEDGER:amount=3.13,L05259

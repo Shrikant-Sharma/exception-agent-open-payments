@@ -1,0 +1,35 @@
+# Pass or fail check for any change to the agent, its procedure or the rules.
+# Written for this project and not yet run on GitHub.
+name: Agent regression check
+on:
+  pull_request:
+    paths: ["agent/**", "rules/**", "*.py"]
+  workflow_dispatch:
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install
+        run: pip install -r requirements.txt huggingface_hub
+      - name: Download the open model the bar was set with
+        run: python -c "from huggingface_hub import hf_hub_download; hf_hub_download('Qwen/Qwen3-4B-GGUF', 'Qwen3-4B-Q4_K_M.gguf', local_dir='models')"
+      - name: Verify the data against its manifests
+        run: python 01_extract.py && python 02_reference.py
+      - name: Check the endpoint path against a scripted stand-in service
+        run: python tests/test_endpoint.py
+      - name: Replay every stored lookup through the MCP server
+        run: python 10_tools_over_mcp.py --out zz_mcp_check
+      - name: Check steps 10 to 12 together against a stand-in that replays the stored answers
+        run: python tests/test_hosted.py
+      - name: Rebuild the exception log from the stored scenario
+        run: python 04_reconcile.py
+      - name: Run the agent on the development exceptions and compare with the bar
+        env:
+          LLM_MODEL_PATH: models/Qwen3-4B-Q4_K_M.gguf
+          LLM_SYSTEM_SUFFIX: /no_think
+        run: python 09_regression.py

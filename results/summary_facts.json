@@ -1,0 +1,205 @@
+{
+ "facts": {
+  "agent_proposals_applied": 116,
+  "double_loads_by_load_date": {
+   "2025-07-17": 12,
+   "2025-10-17": 10
+  },
+  "double_loads_confirmed": 22,
+  "exceptions": 167,
+  "filing_lines_draft": 5805,
+  "kri": [
+   {
+    "after": 98.691,
+    "after_status": "within line",
+    "baseline": 98.793,
+    "draft": 98.052,
+    "draft_status": "ESCALATE",
+    "key": "registry_verified_pct",
+    "label": "Lines verified against the registry (%)",
+    "line": {
+     "escalate_when": "below",
+     "line": 98.543
+    }
+   },
+   {
+    "after": 100.0,
+    "after_status": "within line",
+    "baseline": 100.0,
+    "draft": 98.269,
+    "draft_status": "ESCALATE",
+    "key": "completeness_pct",
+    "label": "Reportable ledger lines in the filing (%)",
+    "line": {
+     "escalate_when": "below",
+     "line": 99.75
+    }
+   },
+   {
+    "after": 100.0,
+    "after_status": "within line",
+    "baseline": 100.0,
+    "draft": 99.569,
+    "draft_status": "ESCALATE",
+    "key": "field_agreement_pct",
+    "label": "Filing lines that agree with the ledger (%)",
+    "line": {
+     "escalate_when": "below",
+     "line": 99.75
+    }
+   },
+   {
+    "after": 20.74,
+    "after_status": "within line",
+    "baseline": 20.74,
+    "draft": 28.12,
+    "draft_status": "ESCALATE",
+    "key": "lookalike_lines_per_1000",
+    "label": "Look-alike lines per 1,000",
+    "line": {
+     "escalate_when": "above",
+     "line": 25.92
+    }
+   },
+   {
+    "after": 336.34,
+    "after_status": "within line",
+    "baseline": 423193.72,
+    "draft": 432296.53,
+    "draft_status": "within line",
+    "key": "open_exception_dollars",
+    "label": "Dollars on lines with an open exception",
+    "line": {
+     "escalate_when": "above",
+     "line": 528992.15
+    }
+   }
+  ],
+  "kris_over_line_after_fixes": 0,
+  "kris_over_line_in_draft": 4,
+  "ledger_lines": 5907,
+  "program_year": 2025,
+  "rule_version": "2025.1",
+  "settled_by_rule": 37,
+  "waiting": [
+   {
+    "dollars": "43.80",
+    "exception_id": "E-009",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1582656774 is on 1 ledger line(s) under the name ANNE L SPERANZA. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "32.95",
+    "exception_id": "E-015",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1821713905 is on 1 ledger line(s) under the name JACQUELINE ANN FOURNIER. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "26.05",
+    "exception_id": "E-022",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1255692378 is on 1 ledger line(s) under the name MARIA T BOYLAN. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "24.24",
+    "exception_id": "E-024",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1083805410 is on 1 ledger line(s) under the name MICHELLE T LINCOLN. The registry has no record of that NPI (check digit valid)."
+   },
+   {
+    "dollars": "24.20",
+    "exception_id": "E-025",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 9172912616 is on 1 ledger line(s) under the name KARA C DOBERSTEIN. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "20.75",
+    "exception_id": "E-029",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 9172283778 is on 1 ledger line(s) under the name EMMA KENNEY. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "18.69",
+    "exception_id": "E-032",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1821829119 is on 1 ledger line(s) under the name NATHANIEL N BROWN. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "18.27",
+    "exception_id": "E-033",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1780914001 is on 1 ledger line(s) under the name JENNIFER SUSANN MAYNARD. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "14.65",
+    "exception_id": "E-038",
+    "lines": "1",
+    "rule": "R-ID-01",
+    "what_found": "NPI 1455859757 is on 1 ledger line(s) under the name CAROLYN JAMIE KUSSMAUL. The registry has no record of that NPI (check digit not valid)."
+   },
+   {
+    "dollars": "30.11",
+    "exception_id": "E-090",
+    "lines": "1",
+    "rule": "R-ID-02",
+    "what_found": "NPI 1881714889 is on 1 ledger line(s) under the name PAUL F BELLIVEAU. The registry lists that NPI under a different name."
+   },
+   {
+    "dollars": "26.03",
+    "exception_id": "E-092",
+    "lines": "1",
+    "rule": "R-ID-02",
+    "what_found": "NPI 1194758359 is on 1 ledger line(s) under the name KATHRYN L SCOVILLE. The registry lists that NPI under a different name."
+   },
+   {
+    "dollars": "25.51",
+    "exception_id": "E-095",
+    "lines": "1",
+    "rule": "R-ID-02",
+    "what_found": "NPI 1265485056 is on 1 ledger line(s) under the name JAMES R KATES. The registry lists that NPI under a different name."
+   },
+   {
+    "dollars": "16.32",
+    "exception_id": "E-108",
+    "lines": "1",
+    "rule": "R-ID-02",
+    "what_found": "NPI 1720013972 is on 1 ledger line(s) under the name PETER SIRAGUSA. The registry lists that NPI under a different name."
+   },
+   {
+    "dollars": "14.77",
+    "exception_id": "E-109",
+    "lines": "1",
+    "rule": "R-ID-02",
+    "what_found": "NPI 1659913028 is on 1 ledger line(s) under the name JENNIFER A PENN. The registry lists that NPI under a different name."
+   }
+  ],
+  "waiting_dollars": 336.34,
+  "waiting_for_a_person": 14
+ },
+ "note": {
+  "decisions_needed": "14 exceptions require a person to resolve, with $336.34 on their lines.",
+  "headline": "Compliance Update: Exceptions and Fixes",
+  "where_we_stand": "167 exceptions were raised, 37 were settled by rule. 116 agent proposals passed checks and were applied."
+ },
+ "note_log": [
+  {
+   "attempt": 1,
+   "note": {
+    "decisions_needed": "14 exceptions require a person to resolve, with $336.34 on their lines.",
+    "headline": "Compliance Update: Exceptions and Fixes",
+    "where_we_stand": "167 exceptions were raised, 37 were settled by rule. 116 agent proposals passed checks and were applied."
+   },
+   "problems": [],
+   "seconds": 24.2
+  }
+ ],
+ "note_source": "written by Qwen3-4B-Q4_K_M.gguf and passed the checks on try 1"
+}

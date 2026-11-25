@@ -1,0 +1,168 @@
+exception_id,check,rule,route,root_cause,action,value,status,verified,lines,dollars
+E-005,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,17,134.57
+E-006,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,13,109.90
+E-007,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,12,104.35
+E-008,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,11,92.31
+E-011,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,12,62.29
+E-012,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,10,57.05
+E-048,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,6,56.64
+E-058,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,5,28.29
+E-061,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,4,40.70
+E-066,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,4,33.30
+E-067,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,4,31.85
+E-085,COMPLETENESS,R-SMALL-01,rule,,ADD_LINES,,applied by rule,closed on re-run,4,13.42
+E-087,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,4550.00
+E-135,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,67.55
+E-141,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,34.07
+E-142,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,33.50
+E-145,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,30.19
+E-146,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,27.18
+E-147,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,24.49
+E-148,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,23.71
+E-149,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,23.03
+E-150,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,22.90
+E-151,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,20.76
+E-152,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,20.15
+E-153,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,20.13
+E-154,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,20.01
+E-155,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,19.50
+E-156,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,18.46
+E-157,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,17.86
+E-158,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,17.63
+E-159,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,17.50
+E-161,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,15.47
+E-162,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,14.28
+E-163,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,8.09
+E-165,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,5.65
+E-166,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,4.98
+E-167,FIELD,R-FIELD-01,rule,,SET_FROM_LEDGER,,applied by rule,closed on re-run,1,3.13
+E-001,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,11,357.08
+E-002,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,18,266.26
+E-003,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,13,261.89
+E-004,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,8,36400.00
+E-009,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,43.80
+E-010,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,7,261.46
+E-013,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1568622801,"approved in the replay, applied",closed on re-run,1,33.37
+E-014,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1295799799,"approved in the replay, applied",closed on re-run,1,32.94
+E-015,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,32.95
+E-016,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1831118017,"approved in the replay, applied",closed on re-run,1,30.48
+E-017,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1417394131,"approved in the replay, applied",closed on re-run,1,30.18
+E-018,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1538486717,"approved in the replay, applied",closed on re-run,1,29.90
+E-019,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1558915876,"approved in the replay, applied",closed on re-run,1,29.89
+E-020,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1639371263,"approved in the replay, applied",closed on re-run,1,28.60
+E-021,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1912107285,"approved in the replay, applied",closed on re-run,1,26.70
+E-022,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,26.05
+E-023,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1154344505,"approved in the replay, applied",closed on re-run,1,25.38
+E-024,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,24.24
+E-025,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,24.20
+E-026,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1104370154,"approved in the replay, applied",closed on re-run,1,23.56
+E-027,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1629558960,"approved in the replay, applied",closed on re-run,1,21.27
+E-028,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1962429837,"approved in the replay, applied",closed on re-run,1,20.96
+E-029,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,20.75
+E-030,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1952885394,"approved in the replay, applied",closed on re-run,1,20.06
+E-031,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,7,125.64
+E-032,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,18.69
+E-033,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,18.27
+E-034,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1184907800,"approved in the replay, applied",closed on re-run,1,17.06
+E-035,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1366553398,"approved in the replay, applied",closed on re-run,1,15.70
+E-036,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1548436520,"approved in the replay, applied",closed on re-run,1,15.00
+E-037,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1245945484,"approved in the replay, applied",closed on re-run,1,14.75
+E-038,IDENTITY,R-ID-01,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,14.65
+E-039,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1306167424,"approved in the replay, applied",closed on re-run,1,13.53
+E-040,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,5,22750.00
+E-041,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,5,22750.00
+E-042,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1346274941,"approved in the replay, applied",closed on re-run,1,10.00
+E-043,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,4,18200.00
+E-044,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,4,18200.00
+E-045,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,4,18200.00
+E-046,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,4,18200.00
+E-047,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,4,18200.00
+E-049,IDENTITY,R-ID-01,agent,NPI_KEYED_WRONG,FIX_NPI,1144478686,"approved in the replay, applied",closed on re-run,1,4.14
+E-050,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,17550.00
+E-051,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,11055.00
+E-052,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,11055.00
+E-053,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,8250.00
+E-054,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,8250.00
+E-055,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,11700.00
+E-056,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,11700.00
+E-057,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,11700.00
+E-059,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,7035.00
+E-060,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,7035.00
+E-062,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,9100.00
+E-063,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,9100.00
+E-064,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,9100.00
+E-065,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,9100.00
+E-068,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1437821899,"approved in the replay, applied",closed on re-run,1,123.10
+E-069,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7700.00
+E-070,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7700.00
+E-071,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7700.00
+E-072,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7700.00
+E-073,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7700.00
+E-074,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7700.00
+E-075,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7370.00
+E-076,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7370.00
+E-077,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,7370.00
+E-078,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,6030.00
+E-079,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,5500.00
+E-080,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,5500.00
+E-081,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,5500.00
+E-082,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,50.52
+E-083,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,4690.00
+E-084,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,4690.00
+E-086,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,3500.00
+E-088,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,2500.00
+E-089,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1457027583,"approved in the replay, applied",closed on re-run,1,34.97
+E-090,IDENTITY,R-ID-02,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,30.11
+E-091,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1528069424,"approved in the replay, applied",closed on re-run,1,26.51
+E-092,IDENTITY,R-ID-02,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,26.03
+E-093,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1134260607,"approved in the replay, applied",closed on re-run,1,25.63
+E-094,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1710093174,"approved in the replay, applied",closed on re-run,1,25.51
+E-095,IDENTITY,R-ID-02,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,25.51
+E-096,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1710655006,"approved in the replay, applied",closed on re-run,1,24.96
+E-097,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1154970093,"approved in the replay, applied",closed on re-run,1,24.88
+E-098,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,1,24.35
+E-099,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,1,22.56
+E-100,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,1,21.58
+E-101,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,1,21.49
+E-102,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1861920209,"approved in the replay, applied",closed on re-run,1,20.96
+E-103,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1386129856,"approved in the replay, applied",closed on re-run,1,19.92
+E-104,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1831395011,"approved in the replay, applied",closed on re-run,1,18.75
+E-105,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1265968515,"approved in the replay, applied",closed on re-run,1,18.45
+E-106,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1508850827,"approved in the replay, applied",closed on re-run,1,17.69
+E-107,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1669578571,"approved in the replay, applied",closed on re-run,1,16.44
+E-108,IDENTITY,R-ID-02,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,16.32
+E-109,IDENTITY,R-ID-02,agent,CANNOT_CONFIRM,SEND_TO_PERSON,,waiting for a person,,1,14.77
+E-110,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1538143730,"approved in the replay, applied",closed on re-run,1,14.18
+E-111,IDENTITY,R-ID-02,agent,SAME_PERSON_OTHER_NAME,NO_CHANGE,,"approved in the replay, applied",closed on re-run,1,14.16
+E-112,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1174017024,"approved in the replay, applied",closed on re-run,1,13.00
+E-113,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1639890502,"approved in the replay, applied",closed on re-run,1,12.46
+E-114,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1396242871,"approved in the replay, applied",closed on re-run,1,11.83
+E-115,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05900,"approved in the replay, applied",closed on re-run,2,610.64
+E-116,IDENTITY,R-ID-02,agent,WRONG_PERSON_SELECTED,FIX_NPI,1922245471,"approved in the replay, applied",closed on re-run,1,7.92
+E-117,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,4,220.80
+E-118,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,3,265.50
+E-119,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05895,"approved in the replay, applied",closed on re-run,2,290.60
+E-120,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05894,"approved in the replay, applied",closed on re-run,2,277.04
+E-121,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05893,"approved in the replay, applied",closed on re-run,2,206.86
+E-122,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05896,"approved in the replay, applied",closed on re-run,2,178.02
+E-123,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,118.92
+E-124,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05902,"approved in the replay, applied",closed on re-run,2,66.10
+E-125,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05897,"approved in the replay, applied",closed on re-run,2,62.20
+E-126,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05899,"approved in the replay, applied",closed on re-run,2,58.60
+E-127,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05889,"approved in the replay, applied",closed on re-run,2,56.22
+E-128,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05907,"approved in the replay, applied",closed on re-run,2,53.62
+E-129,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05891,"approved in the replay, applied",closed on re-run,2,50.94
+E-130,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,49.54
+E-131,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05904,"approved in the replay, applied",closed on re-run,2,48.24
+E-132,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05892,"approved in the replay, applied",closed on re-run,2,46.48
+E-133,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05886,"approved in the replay, applied",closed on re-run,2,45.28
+E-134,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05898,"approved in the replay, applied",closed on re-run,2,42.92
+E-136,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05906,"approved in the replay, applied",closed on re-run,2,40.94
+E-137,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05888,"approved in the replay, applied",closed on re-run,2,31.18
+E-138,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,30.00
+E-139,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05905,"approved in the replay, applied",closed on re-run,2,28.34
+E-140,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05887,"approved in the replay, applied",closed on re-run,2,25.88
+E-143,LOOKALIKE,R-DUP-01,agent,SEPARATE_PAYMENTS,NO_CHANGE,,"approved in the replay, applied",closed on re-run,2,19.30
+E-144,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05890,"approved in the replay, applied",closed on re-run,2,18.82
+E-160,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05901,"approved in the replay, applied",closed on re-run,2,10.20
+E-164,LOOKALIKE,R-DUP-01,agent,DOCUMENT_LOADED_TWICE,REMOVE_LINE,L05903,"approved in the replay, applied",closed on re-run,2,4.50

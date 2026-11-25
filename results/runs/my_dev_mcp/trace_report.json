@@ -1,0 +1,28 @@
+{
+ "agree_with_record": 35,
+ "by_kind": {
+  "AGENT": {
+   "seconds": 943.1,
+   "spans": 35
+  },
+  "CHAT_MODEL": {
+   "seconds": 942.8,
+   "spans": 136,
+   "tokens_in": 122604,
+   "tokens_out": 4598
+  },
+  "TOOL": {
+   "seconds": 0.2,
+   "spans": 55
+  }
+ },
+ "disagree": [],
+ "exceptions": 35,
+ "max_seconds": 73.9,
+ "max_spans": 12,
+ "median_seconds": 24.8,
+ "median_spans": 5,
+ "spans": 226,
+ "tag": "my_dev_mcp",
+ "traces": 35
+}

@@ -1,0 +1,117 @@
+{
+ "lookups_replayed": 454,
+ "median_ms_per_lookup": 3.4,
+ "replay": [
+  {
+   "lookups": 55,
+   "registry": "up",
+   "run": "dev",
+   "same_facts": 55,
+   "same_text": 55
+  },
+  {
+   "lookups": 62,
+   "registry": "up",
+   "run": "dev_smaller_model",
+   "same_facts": 62,
+   "same_text": 62
+  },
+  {
+   "lookups": 55,
+   "registry": "up",
+   "run": "my_dev",
+   "same_facts": 55,
+   "same_text": 55
+  },
+  {
+   "lookups": 7,
+   "registry": "up",
+   "run": "my_dev3",
+   "same_facts": 7,
+   "same_text": 7
+  },
+  {
+   "lookups": 18,
+   "registry": "up",
+   "run": "my_test",
+   "same_facts": 18,
+   "same_text": 18
+  },
+  {
+   "lookups": 150,
+   "registry": "up",
+   "run": "test",
+   "same_facts": 150,
+   "same_text": 150
+  },
+  {
+   "lookups": 42,
+   "registry": "up",
+   "run": "test_note",
+   "same_facts": 42,
+   "same_text": 42
+  },
+  {
+   "lookups": 38,
+   "registry": "down",
+   "run": "test_outage",
+   "same_facts": 38,
+   "same_text": 38
+  },
+  {
+   "lookups": 27,
+   "registry": "up",
+   "run": "test_recheck_after_hardening",
+   "same_facts": 27,
+   "same_text": 27
+  }
+ ],
+ "replay_identical": true,
+ "run_through_mcp": {
+  "differing": {},
+  "exceptions": 35,
+  "identical": 35,
+  "mcp_calls": 55,
+  "mcp_seconds": 0.17,
+  "model": "Qwen3-4B-Q4_K_M.gguf",
+  "right": 35,
+  "run": "dev_mcp",
+  "same_model": true,
+  "stored_run": "dev",
+  "to_a_person": 0,
+  "tools_via": "mcp",
+  "traced": true,
+  "wrong": 0
+ },
+ "tools": [
+  {
+   "arguments": [
+    "npi"
+   ],
+   "description": "Look up one ten-digit NPI in the registry snapshot. Returns the registered person, or says there is no record.",
+   "name": "registry_lookup"
+  },
+  {
+   "arguments": [
+    "line_npi",
+    "name"
+   ],
+   "description": "Search the registry snapshot by first and last name. line_npi is the NPI on the ledger line, so each\nmatch can say in how many digits it differs from it.",
+   "name": "registry_search"
+  },
+  {
+   "arguments": [
+    "name"
+   ],
+   "description": "Count the ledger lines under a person's name, by the NPI each line carries.",
+   "name": "ledger_history"
+  },
+  {
+   "arguments": [
+    "line_ids"
+   ],
+   "description": "Give the source document number, feed and load date of ledger lines. Input: line IDs such as L00012, separated by commas.",
+   "name": "source_documents"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "api": "https://openpaymentsdata.cms.gov/api/1/datastore/query/fb0b1734-1410-429d-92f6-3f4b35218e5e/0",
+ "columns_kept": [
+  "record_id",
+  "program_year",
+  "payment_publication_date",
+  "covered_recipient_type",
+  "covered_recipient_npi",
+  "covered_recipient_first_name",
+  "covered_recipient_middle_name",
+  "covered_recipient_last_name",
+  "covered_recipient_name_suffix",
+  "teaching_hospital_name",
+  "recipient_city",
+  "recipient_state",
+  "recipient_zip_code",
+  "covered_recipient_primary_type_1",
+  "covered_recipient_specialty_1",
+  "total_amount_of_payment_usdollars",
+  "date_of_payment",
+  "form_of_payment_or_transfer_of_value",
+  "nature_of_payment_or_transfer_of_value",
+  "name_of_drug_or_biological_or_device_or_medical_supply_1",
+  "city_of_travel",
+  "state_of_travel"
+ ],
+ "columns_published": 91,
+ "conditions": [
+  {
+   "operator": "=",
+   "property": "recipient_state",
+   "value": "NH"
+  },
+  {
+   "operator": "=",
+   "property": "applicable_manufacturer_or_applicable_gpo_making_payment_id",
+   "value": "100000000204"
+  }
+ ],
+ "dataset_id": "fb0b1734-1410-429d-92f6-3f4b35218e5e",
+ "file": "general_payments_py2025.csv",
+ "note": "The company name columns are not kept. The company is not the subject of this project; every error in the scenario is planted by 03_build_scenario.py.",
+ "program_year": 2025,
+ "publication_dates_in_rows": [
+  "06/30/2026"
+ ],
+ "ranking_retrieved_at_utc": "2026-11-22T09:02:48Z",
+ "records_by_company_id_top5": [
+  {
+   "company_id": "100000000204",
+   "records": 5885
+  },
+  {
+   "company_id": "100000000286",
+   "records": 1101
+  },
+  {
+   "company_id": "100000000329",
+   "records": 1083
+  },
+  {
+   "company_id": "100001111886",
+   "records": 889
+  },
+  {
+   "company_id": "100000005674",
+   "records": 849
+  }
+ ],
+ "retrieved_at_utc": "2026-11-22T02:38:02Z",
+ "rows": 5885,
+ "sha256": "af45fee23da6e2504a5a8e044a7d7322594adf57f41447e0cdf297b99dbfe7fc",
+ "sorted_by": "record_id ascending",
+ "source": "CMS Open Payments, 2025 General Payment Data",
+ "total_dollars": 1150591.49,
+ "why_this_company": "It has the most 2025 general payment records for recipients in the state."
+}

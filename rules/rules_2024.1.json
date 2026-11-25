@@ -1,0 +1,83 @@
+{
+ "version": "2024.1",
+ "program_year": 2024,
+ "applies_to": "payments dated 2024-01-01 to 2024-12-31",
+ "amounts_checked_against": "CMS Open Payments, Data Collection page (reporting thresholds by program year), read 2026-11-22",
+ "rules": {
+  "R-SMALL-01": {
+   "title": "Small payments",
+   "text": "A payment under the small payment amount does not have to be reported, unless the total paid to that recipient in the calendar year is over the yearly amount. Then every payment to that recipient must be reported.",
+   "citation": "42 CFR 403.904(h)(2); CMS reporting thresholds for program year 2024",
+   "parameters": {
+    "small_payment": 13.07,
+    "yearly_total": 130.66
+   },
+   "handled_by": "rule",
+   "severity": 3
+  },
+  "R-COMP-01": {
+   "title": "Completeness",
+   "text": "Every ledger line that must be reported is in the filing.",
+   "citation": "42 CFR 403.904(a)",
+   "handled_by": "rule",
+   "severity": 3
+  },
+  "R-FIELD-01": {
+   "title": "Field agreement",
+   "text": "The amount and the payment date on a filing line equal the ledger, and the payment date falls in the program year.",
+   "citation": "42 CFR 403.904(c)(4) and (c)(5)",
+   "handled_by": "rule",
+   "severity": 2
+  },
+  "R-ID-01": {
+   "title": "NPI on record",
+   "text": "The NPI on a line has an active record in the NPI registry.",
+   "citation": "42 CFR 403.904(c)(3)(ii): National Provider Identifier as listed in the NPPES",
+   "handled_by": "agent",
+   "severity": 4
+  },
+  "R-ID-02": {
+   "title": "Name agreement",
+   "text": "The recipient name on a line agrees with the name the NPI registry lists for the NPI on that line: same last name, and the same first name or initial. Another name the registry lists for the person also counts.",
+   "citation": "42 CFR 403.904(c)(1): the name must be as listed in the NPPES",
+   "handled_by": "agent",
+   "severity": 3
+  },
+  "R-DUP-01": {
+   "title": "Look-alike lines",
+   "text": "Two or more lines with the same NPI, payment date, amount and nature of payment are confirmed as separate payments before filing.",
+   "citation": "Internal control. Each payment is reported once (42 CFR 403.904(a)).",
+   "handled_by": "agent",
+   "severity": 2
+  }
+ },
+ "priority_weights": {
+  "note": "Order of the work queue. Judgment calls, written down before the run: severity counts most, then dollars on a log scale, then the number of lines.",
+  "severity": 10,
+  "log10_dollars": 5,
+  "lines_up_to_10": 1
+ },
+ "kri_lines": {
+  "note": "Escalation lines are set from the baseline run on the records as published, before any error is planted. A line is the baseline moved by the margin below.",
+  "registry_verified_pct": {
+   "escalate_when": "below",
+   "margin_points": 0.25
+  },
+  "completeness_pct": {
+   "escalate_when": "below",
+   "margin_points": 0.25
+  },
+  "field_agreement_pct": {
+   "escalate_when": "below",
+   "margin_points": 0.25
+  },
+  "lookalike_lines_per_1000": {
+   "escalate_when": "above",
+   "margin_factor": 1.25
+  },
+  "open_exception_dollars": {
+   "escalate_when": "above",
+   "margin_factor": 1.25
+  }
+ }
+}

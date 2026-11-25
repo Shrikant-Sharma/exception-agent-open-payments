@@ -1,0 +1,36 @@
+{
+ "accepted": 56,
+ "exceptions_on_rerun": 70,
+ "kris": {
+  "completeness_pct": 100.0,
+  "field_agreement_pct": 100.0,
+  "lookalike_lines_per_1000": 20.74,
+  "open_exception_dollars": 336.34,
+  "registry_verified_pct": 98.691
+ },
+ "rule_version": "2025.1",
+ "stages": {
+  "after agent proposals": {
+   "agree": 5869,
+   "differ": 16,
+   "extra_lines": 0,
+   "missing": 0,
+   "published_records": 5885
+  },
+  "after rule fixes": {
+   "agree": 5831,
+   "differ": 54,
+   "extra_lines": 22,
+   "missing": 0,
+   "published_records": 5885
+  },
+  "draft": {
+   "agree": 5704,
+   "differ": 79,
+   "extra_lines": 22,
+   "missing": 102,
+   "published_records": 5885
+  }
+ },
+ "still_open": 14
+}

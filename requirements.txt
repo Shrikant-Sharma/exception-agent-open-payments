@@ -1,0 +1,8 @@
+# Built and run with Python 3.13, requests 2.34, matplotlib 3.11, llama-cpp-python 0.3.37, mcp 2.3.0, mlflow 3.18.0
+requests>=2.31
+matplotlib>=3.8
+# Only needed to run a model file on your own machine. Leave it out if you use an endpoint (see README, "How to run it").
+llama-cpp-python>=0.3.16
+# Only needed for steps 10 to 12: the lookups over MCP, and MLflow traces. Steps 1 to 9 never import them.
+mcp>=2.0
+mlflow>=3.8

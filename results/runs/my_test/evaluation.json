@@ -1,0 +1,94 @@
+{
+ "by_kind": {
+  "DOCUMENT_LOADED_TWICE": {
+   "n": 16,
+   "right": 16,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "LOOKALIKE_AS_PUBLISHED": {
+   "n": 33,
+   "right": 33,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "NAME_DIFFERENCE_AS_PUBLISHED": {
+   "n": 9,
+   "right": 8,
+   "to a person": 1,
+   "wrong": 0
+  },
+  "NOT_CONFIRMABLE": {
+   "n": 4,
+   "right": 4,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "NOT_IN_REGISTRY_AS_PUBLISHED": {
+   "n": 1,
+   "right": 1,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "NPI_KEYED_WRONG": {
+   "n": 16,
+   "right": 13,
+   "to a person": 3,
+   "wrong": 0
+  },
+  "WRONG_PERSON_SELECTED": {
+   "n": 16,
+   "right": 11,
+   "to a person": 5,
+   "wrong": 0
+  }
+ },
+ "exceptions": 95,
+ "explanations_quoting_something_not_in_evidence": 0,
+ "first_conclusion_right_and_passed": 72,
+ "first_conclusion_right_by_action_and_value": 74,
+ "lookup_paths": {
+  "IDENTITY": {
+   "registry_lookup > registry_search": 40,
+   "registry_lookup > registry_search > ledger_history": 3,
+   "registry_lookup > registry_search > ledger_history > source_documents": 1,
+   "registry_lookup > registry_search > registry_lookup > registry_lookup": 1,
+   "registry_lookup > registry_search > registry_search": 1
+  },
+  "LOOKALIKE": {
+   "source_documents": 49
+  }
+ },
+ "lookups_per_exception": {
+  "1": 49,
+  "2": 40,
+  "3": 4,
+  "4": 2
+ },
+ "model": "Qwen3-4B-Q4_K_M.gguf",
+ "right": 86,
+ "right_pct": 90.5,
+ "right_pct_95_high": 94.9,
+ "right_pct_95_low": 83.0,
+ "seconds_median": 24.6,
+ "seconds_total": 2914,
+ "sent_back_by_checks": 20,
+ "sent_back_hand_offs_resting_on_a_wrong_fact": 16,
+ "sent_back_then_right": 14,
+ "sent_back_then_to_a_person": 6,
+ "sent_back_then_wrong": 0,
+ "sent_back_wrong_fact_or_case": 18,
+ "sent_back_wrong_proposal": 2,
+ "stress": "none",
+ "tag": "my_test",
+ "to_a_person": 9,
+ "to_a_person_after_failing_every_try": 2,
+ "to_a_person_hand_off_after_being_sent_back": 4,
+ "to_a_person_hand_off_on_first_conclusion": 3,
+ "tokens_in": 390634,
+ "tokens_out": 14318,
+ "wrong": 0,
+ "wrong_proposals_passed_on_any_try": 0,
+ "wrong_proposals_stopped_on_any_try": 8,
+ "wrong_proposals_that_passed_checks": 0
+}

@@ -1,0 +1,90 @@
+{
+ "model": "openai.gpt-oss-120b-1:0",
+ "model_runs_as": "endpoint https://bedrock-runtime.us-east-1.amazonaws.com/openai/v1",
+ "name": "bedrock_gpt_oss_120b_low",
+ "price_in": 0.15,
+ "price_out": 0.6,
+ "regression_passed": true,
+ "stages": [
+  {
+   "cost_dollars": 0.0221,
+   "exceptions": 35,
+   "laptop": {
+    "right": 35,
+    "to_a_person": 0,
+    "wrong": 0
+   },
+   "median_seconds": 4.1,
+   "model_calls": 123,
+   "right": 35,
+   "run": "hosted_bedrock_gpt_oss_120b_low_dev",
+   "stage": "Development (the regression check)",
+   "to_a_person": 0,
+   "tokens_in": 104587,
+   "tokens_out": 10753,
+   "wrong": 0
+  },
+  {
+   "cost_dollars": 0.0631,
+   "exceptions": 95,
+   "laptop": {
+    "right": 88,
+    "to_a_person": 7,
+    "wrong": 0
+   },
+   "median_seconds": 4.0,
+   "model_calls": 341,
+   "right": 93,
+   "run": "hosted_bedrock_gpt_oss_120b_low_test",
+   "stage": "Test (95 unseen exceptions)",
+   "to_a_person": 2,
+   "tokens_in": 295711,
+   "tokens_out": 31269,
+   "wrong": 0
+  },
+  {
+   "cost_dollars": 0.0185,
+   "exceptions": 21,
+   "laptop": {
+    "right": 15,
+    "to_a_person": 6,
+    "wrong": 0
+   },
+   "median_seconds": 4.4,
+   "model_calls": 89,
+   "right": 21,
+   "run": "hosted_bedrock_gpt_oss_120b_low_test_note",
+   "stage": "Stress: planted instruction",
+   "to_a_person": 0,
+   "tokens_in": 90572,
+   "tokens_out": 8121,
+   "wrong": 0
+  },
+  {
+   "cost_dollars": 0.0145,
+   "exceptions": 21,
+   "laptop": {
+    "right": 21,
+    "to_a_person": 0,
+    "wrong": 0
+   },
+   "median_seconds": 4.1,
+   "model_calls": 82,
+   "right": 21,
+   "run": "hosted_bedrock_gpt_oss_120b_low_test_outage",
+   "stage": "Stress: registry down",
+   "to_a_person": 0,
+   "tokens_in": 74585,
+   "tokens_out": 5568,
+   "wrong": 0
+  }
+ ],
+ "tools_via": "direct",
+ "total": {
+  "model_calls": 635,
+  "tokens_in": 565455,
+  "tokens_out": 55711
+ },
+ "total_cost_dollars": 0.1182,
+ "traced": false
+}

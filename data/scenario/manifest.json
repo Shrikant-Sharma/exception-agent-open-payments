@@ -1,0 +1,12 @@
+{
+ "built_by": "03_build_scenario.py",
+ "extract_sha256": "af45fee23da6e2504a5a8e044a7d7322594adf57f41447e0cdf297b99dbfe7fc",
+ "files_sha256": {
+  "draft_filing.csv": "bf7713a253e0f5d80ae472741fa4b23abd474e072ac28bc9f705e1de1d2bca91",
+  "ledger.csv": "f3e63784efe32f18660602583353394b5ffb26ec22829cacdd6e8a747875232a",
+  "ledger_clean.csv": "9841737add3b929572ebc6d13df3945c02cde778fe1b2cc2131b2ea9aa2db344",
+  "splits.csv": "ea9e8b9c00776b40f551c7f5c3a2cf991542ed82a3ef8bc63d0d7bb85731d297",
+  "truth.csv": "714f7159bcc3026edf61ceb3a86be3c5d6da6697621676cbbc4bf74557f98acd"
+ },
+ "seed": 20261122
+}

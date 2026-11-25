@@ -1,0 +1,36 @@
+{
+ "model": "openai.gpt-oss-20b-1:0",
+ "model_runs_as": "endpoint https://bedrock-runtime.us-east-1.amazonaws.com/openai/v1",
+ "name": "bedrock_gpt_oss_20b",
+ "price_in": 0.07,
+ "price_out": 0.3,
+ "regression_passed": true,
+ "stages": [
+  {
+   "cost_dollars": 0.0183,
+   "exceptions": 35,
+   "laptop": {
+    "right": 35,
+    "to_a_person": 0,
+    "wrong": 0
+   },
+   "median_seconds": 9.2,
+   "model_calls": 127,
+   "right": 35,
+   "run": "hosted_bedrock_gpt_oss_20b_dev",
+   "stage": "Development (the regression check)",
+   "to_a_person": 0,
+   "tokens_in": 127964,
+   "tokens_out": 30978,
+   "wrong": 0
+  }
+ ],
+ "tools_via": "direct",
+ "total": {
+  "model_calls": 127,
+  "tokens_in": 127964,
+  "tokens_out": 30978
+ },
+ "total_cost_dollars": 0.0183,
+ "traced": false
+}

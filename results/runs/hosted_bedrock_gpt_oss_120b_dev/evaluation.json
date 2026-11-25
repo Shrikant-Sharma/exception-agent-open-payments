@@ -1,0 +1,84 @@
+{
+ "by_kind": {
+  "DOCUMENT_LOADED_TWICE": {
+   "n": 6,
+   "right": 6,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "LOOKALIKE_AS_PUBLISHED": {
+   "n": 12,
+   "right": 12,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "NAME_DIFFERENCE_AS_PUBLISHED": {
+   "n": 3,
+   "right": 3,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "NOT_CONFIRMABLE": {
+   "n": 2,
+   "right": 2,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "NPI_KEYED_WRONG": {
+   "n": 6,
+   "right": 6,
+   "to a person": 0,
+   "wrong": 0
+  },
+  "WRONG_PERSON_SELECTED": {
+   "n": 6,
+   "right": 6,
+   "to a person": 0,
+   "wrong": 0
+  }
+ },
+ "exceptions": 35,
+ "explanations_quoting_something_not_in_evidence": 0,
+ "first_conclusion_right_and_passed": 35,
+ "first_conclusion_right_by_action_and_value": 35,
+ "lookup_paths": {
+  "IDENTITY": {
+   "registry_lookup > registry_search": 16,
+   "registry_lookup > registry_search > ledger_history": 1
+  },
+  "LOOKALIKE": {
+   "source_documents": 18
+  }
+ },
+ "lookups_per_exception": {
+  "1": 18,
+  "2": 16,
+  "3": 1
+ },
+ "model": "openai.gpt-oss-120b-1:0",
+ "right": 35,
+ "right_pct": 100.0,
+ "right_pct_95_high": 100.0,
+ "right_pct_95_low": 90.1,
+ "seconds_median": 6.1,
+ "seconds_total": 232,
+ "sent_back_by_checks": 0,
+ "sent_back_hand_offs_resting_on_a_wrong_fact": 0,
+ "sent_back_then_right": 0,
+ "sent_back_then_to_a_person": 0,
+ "sent_back_then_wrong": 0,
+ "sent_back_wrong_fact_or_case": 0,
+ "sent_back_wrong_proposal": 0,
+ "stress": "none",
+ "tag": "hosted_bedrock_gpt_oss_120b_dev",
+ "to_a_person": 0,
+ "to_a_person_after_failing_every_try": 0,
+ "to_a_person_hand_off_after_being_sent_back": 0,
+ "to_a_person_hand_off_on_first_conclusion": 0,
+ "tokens_in": 108719,
+ "tokens_out": 27770,
+ "wrong": 0,
+ "wrong_proposals_passed_on_any_try": 0,
+ "wrong_proposals_stopped_on_any_try": 0,
+ "wrong_proposals_that_passed_checks": 0
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+models/
+.venv/
+# MLflow's local trace store (step 11). The trace report in results/runs/<tag>/ is what is kept.
+mlflow.db
+mlruns/
+# Throwaway runs made by the tests
+results/runs/zz_*/
+results/zz_*

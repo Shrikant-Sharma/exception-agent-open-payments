@@ -1,0 +1,29 @@
+{
+ "agent_code_sha256": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "checks.py": "649478dcef42fb8a418f011584d457264f49367b36b577b14d3d13c2a08ac247",
+  "llm.py": "0f06a9e9aa6a21416c05644696bb9ffb38958649e59685d80f0865a67dac0a68",
+  "loop.py": "4ddadb66367b54eb29cd116a87542f1a54d00503189fb34811ce18bdc7551359",
+  "tools.py": "43698967ad786b20ee227eb357ddd87e6d7bc1814bd3ac277c9319bd246f2ff2"
+ },
+ "check": "all",
+ "exceptions": 35,
+ "extract_sha256": "af45fee23da6e2504a5a8e044a7d7322594adf57f41447e0cdf297b99dbfe7fc",
+ "finished_utc": "2026-11-22T08:10:33Z",
+ "ledger_sha256": "f3e63784efe32f18660602583353394b5ffb26ec22829cacdd6e8a747875232a",
+ "model": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+ "model_file_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+ "model_runs_as": "local file, llama-cpp-python",
+ "procedure_file": "procedure_v1.md",
+ "procedure_sha256": "cceae9482b126d09674e7f4ca3e404d9ff895c6b587e5d7e93276d35ddc73583",
+ "registry_sha256": "b6db0cfa34618676a61ad50bec99fbf7ebcb31979ff7a147f083e204b963b6c6",
+ "rule": "all",
+ "rule_version": "2025.1",
+ "split": "dev",
+ "started_utc": "2026-11-22T07:46:23Z",
+ "stress": "none",
+ "system_suffix": "",
+ "tag": "dev_smaller_model",
+ "temperature": 0,
+ "wall_seconds_this_session": 1450
+}

@@ -277,7 +277,7 @@ Code computes every number. The model writes only a short note from seven facts,
 
 ## 9. The pass or fail check before a change ships
 
-`python 09_regression.py` runs the agent on the 35 development exceptions and compares the score with a stored bar. It fails if the number right falls more than 2 below the bar, or if more wrong proposals pass the checks than before. `.github/workflows/regression.yml` runs it on any change to the agent, the procedure or the rules. The workflow is written and has not been run on GitHub.
+`python 09_regression.py` runs the agent on the 35 development exceptions and compares the score with a stored bar. It fails if the number right falls more than 2 below the bar, or if more wrong proposals pass the checks than before. `.github/workflows/regression.yml` runs it on any change to the agent, the procedure or the rules. The workflow first ran on GitHub on November 25, 2026, started by hand: every step passed, and the agent ended 35 of 35 on GitHub's machine.
 
 | Run on the 35 development exceptions | Right | Sent to a person | Wrong | Check |
 |---|---|---|---|---|
@@ -375,6 +375,8 @@ Everything above is the reference run. This section is what I got when I ran the
 **MCP (step 10).** Every lookup of every run in the folder came back the same through the MCP server, text and facts: 454 of 454 when I ran it, which is the reference's 374 plus the lookups of my own runs. My run of the 35 development exceptions through MCP with tracing on (`my_dev_mcp`) is identical to my direct run (`my_dev`) in all 35: outcome, explanation, every lookup and its result, every step and the token counts. The 55 lookups took 0.17 seconds together.
 
 **Traces (step 11).** 35 traces and 226 spans: 35 root spans, 136 model calls and 55 lookups. All 35 agree with the run's own record. Model calls took 942.8 of the 943.1 seconds. The report is `results/runs/my_dev_mcp/trace_report.md`.
+
+**The workflow on GitHub.** I pushed the project to a public repository and started `.github/workflows/regression.yml` once by hand. On a clean GitHub machine it installed the project, downloaded the model, verified both data fingerprints, passed both test files and the MCP replay, and ran the agent on the 35 development exceptions: 35 right, 0 to a person, 0 wrong. PASS. So the same model has met the bar on three machines: the reference's, my laptop and GitHub's.
 
 **What had to be fixed or worked around on my machine**
 
@@ -600,7 +602,7 @@ For Groq, the same two commands with `set LLM_BASE_URL=https://api.groq.com/open
 - The 4 same-name twin errors raise no exception. A check on city or practitioner type would be needed to see them.
 - The checks do not make the agent finish. A hand-off whose stated facts are true passes: 6 of the 7 test hand-offs were the agent's own, and in 3 of them it had named the right NPI. The hosted model did the same in both of its hand-offs. Section 16 tries a stricter rule, on development exceptions only.
 - No person reviewed anything in this replay. Approval is simulated as "everything that passed the checks".
-- Nothing is deployed and nothing runs on a schedule. The GitHub workflow is written and has not been run.
+- Nothing is deployed and nothing runs on a schedule. The GitHub workflow has been run once, by hand, on November 25, 2026. No pull request has gone through it yet.
 - The MCP server has no login and serves only the process that starts it. The traces are stored in a local file and are a record, not a check.
 - The registry is a snapshot from November 22, 2026. Registry records change.
 

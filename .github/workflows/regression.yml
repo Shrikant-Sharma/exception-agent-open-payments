@@ -1,5 +1,5 @@
 # Pass or fail check for any change to the agent, its procedure or the rules.
-# Written for this project and not yet run on GitHub.
+# First run on GitHub on November 25, 2026, started by hand: every step passed.
 name: Agent regression check
 on:
   pull_request:
